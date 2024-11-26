@@ -15,3 +15,5 @@ cache/
 assets/
 
 .php-cs-fixer.cache
+
+.idea

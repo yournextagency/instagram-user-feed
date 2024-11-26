@@ -35,7 +35,7 @@ class ReelsHydrator
         $reels->setDate(\DateTime::createFromFormat('U', (string) $node->taken_at));
         $reels->setLikes($node->like_count);
         $reels->setIsLiked($node->has_liked);
-        $reels->setViews($node->view_count);
+        $reels->setViews($node->view_count ?? 0);
         $reels->setPlays($node->play_count);
         $reels->setDuration($node->video_duration);
         $reels->setHeight($node->original_height);
