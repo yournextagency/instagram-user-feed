@@ -1,7 +1,7 @@
 {
-  "name": "pgrimaud/instagram-user-feed",
+  "name": "yournextagency/instagram-user-feed",
   "type": "library",
-  "description": "This is a scraper to easily fetch any feed and interact with Instagram (like, follow, etc.) without OAuth for PHP.",
+  "description": "[FORK] This is a scraper to easily fetch any feed and interact with Instagram (like, follow, etc.) without OAuth for PHP.",
   "keywords": [
     "instagram",
     "api",
@@ -10,7 +10,8 @@
     "social",
     "sdk"
   ],
-  "homepage": "https://github.com/pgrimaud/instagram-user-feed",
+  "version": "0.0.2",
+  "homepage": "https://github.com/yournextagency/instagram-user-feed",
   "license": "MIT",
   "authors": [
     {
